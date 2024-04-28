@@ -1,0 +1,47 @@
+
+body {
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+    background-color: gray;
+}
+
+header {
+    border-bottom: 1px;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+header h1 a {
+    color:red;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-rght {
+    display: flex;
+    padding-top: 2rem;
+}
+.post-entry {
+    margin-bottom: 2rem;
+}
+.post-entry h2 {
+    margin: 0.5rem;
+}
+
+.post-entry h2 a,.post-entry h2 a:visited {
+    color: rgb(58, 58, 167);
+    text-decoration: wavy;
+
+}
+
+.post-entry p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.post-entry h2 a:hover {
+    color: brown;
+}
+
